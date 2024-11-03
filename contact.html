@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="aurthor" content="Mohamed Inthisham" />
+    <meta
+      name="description"
+      content="this page is about taco shop contact us details"
+    />
+    <title>Taco Shop Contact</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/#about"
+              >About <abbr title="The little Taco Shop">(LTS)</abbr></a
+            >
+          </li>
+          <li>
+            <a href="/#menu">Our Menu</a>
+          </li>
+          <li>
+            <a href="hours.html">Store Hours</a>
+          </li>
+        </ul>
+      </nav>
+      <figure>
+        <img
+          src="img/tacos_close_up_400x260.png"
+          alt="tacos closeup"
+          title="tacos closeup"
+          width="400"
+          height="260"
+        />
+        <figcaption>Little Taco shop Tacos</figcaption>
+      </figure>
+    </header>
+    <hr />
+    <main>
+      <article id="contact-form">
+        <h2>Our Contact form</h2>
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Send Us A Message</legend>
+            <p>
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="enter your name"
+              />
+            </p>
+            <p>
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="enter your email"
+                required
+              />
+            </p>
+            <p>
+              <label for="message">Your message</label>
+              <br>
+              <textarea
+                name=""
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="enter your message here"
+              ></textarea>
+            </p>
+          </fieldset>
+          <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+        </form>
+      </article>
+      <hr />
+      <article id="location">
+        <h3>Our location</h3>
+        <address>
+          555 Ratnapura <br />
+          Sri lanka 70000
+        </address>
+        <p>
+            Phone <a href="tel:+94718027985">718027985</a>
+        </p>
+        <p><a href="#"> Back to Top</a></p>
+      </article>
+    </main>
+    <hr />
+    <footer>
+      <p>copyright &copy; Mohamed Inthisham</p>
+    </footer>
+  </body>
+</html>
